@@ -269,8 +269,13 @@
     </style>
 </head>
 <body>
-    <!-- שעון נוכחי -->
+    <!-- שעון נוכחי ולחצן כניסה לניהול -->
     <div class="current-time" id="currentTime"></div>
+    <div style="position: fixed; top: 20px; right: 20px;">
+        <button class="btn btn-primary" onclick="showLogin()" style="background: rgba(0,0,0,0.7); border: none; color: #ffd700; padding: 10px 20px; border-radius: 25px; font-size: 0.9em;">
+            ⚙️ ניהול
+        </button>
+    </div>
 
     <!-- תצוגה ציבורית -->
     <div id="displayView" class="display-container">
